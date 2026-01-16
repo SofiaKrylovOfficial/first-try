@@ -1,0 +1,33 @@
+.circle{
+    width: 600px;
+    height: 600px;
+    background-color: gray;
+    border-radius: 50%;
+     position: relative;
+}
+.line{
+    position: absolute;
+    width: 1px;
+    height: 600px;
+    background-color: black;
+    display: inline-block;
+    margin-left: 300px;
+}
+#l1{
+    transform: rotate(0deg);
+}
+#l2{
+    transform: rotate(30deg);
+}
+#l3{
+    transform: rotate(60deg);
+}
+#l4{
+    transform: rotate(90deg);
+}
+#l5{
+    transform: rotate(120deg);
+}
+#l6{
+    transform: rotate(150deg);
+}
